@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.personcontainer {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cit {
+    color: white;
+}
+
+.info{
+    margin-top: 15px;
+}

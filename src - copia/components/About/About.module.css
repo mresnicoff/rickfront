@@ -1,0 +1,17 @@
+.me {
+    color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.ab {
+    margin: 10px;
+}
+
+.like {
+    color: white;
+    text-decoration: none
+}

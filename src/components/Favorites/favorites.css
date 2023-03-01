@@ -1,0 +1,16 @@
+.input {
+ 
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0,5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+.texto{   color:white;}

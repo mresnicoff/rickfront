@@ -1,0 +1,18 @@
+.buttonBack {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454545;
+    background-image: linear-gradient(315deg, #cdb436 0%, #454545 74%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: 500ms;
+    color: #f6f4e6;
+    margin: 5px;
+    font-weight: bold;
+    font-size: large;
+  }

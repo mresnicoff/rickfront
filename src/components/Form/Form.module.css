@@ -1,0 +1,25 @@
+
+
+.danger {
+  font-size: 10px;
+  color: white;
+  margin-left: 10em;
+}
+.input {
+ margin-Top:20px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 0,5rem;
+  border:none
+
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.texto{   
+  color:white;
+  border-radius: 6px;}
