@@ -57,7 +57,7 @@ export function App(props) {
   useEffect(() => {
     console.log(props.user);
     if (props.user == "" || props.user == undefined) {
-      navigate("/");
+      navigate("/rickfront");
     } else {
       navigate("/home");
     }
@@ -69,7 +69,7 @@ export function App(props) {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/rickfront"
           element={<Form login={login} signup={signup} />}
         />
         <Route

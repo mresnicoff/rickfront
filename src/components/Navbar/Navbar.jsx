@@ -10,7 +10,7 @@ export default function Navbar(props){
             <Link className={style.link} to='/about'>About</Link>
             <Link className={style.link} to='/favorites'>Favorites</Link>
             <Link className={style.link} to='/home'>Home</Link>
-            <Link className={style.link} to='/'>Log Out</Link>
+            <Link className={style.link} to='/rickfront'>Log Out</Link>
             <SearchBar onSearch={props.onSearch}/>
         </div>
     )
