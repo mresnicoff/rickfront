@@ -1,5 +1,6 @@
 {
   "name": "rick",
+  "homepage":"https://mresnicoff.github.io/rickfront/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
