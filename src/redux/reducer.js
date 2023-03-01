@@ -23,7 +23,7 @@ const rootReducer = (state = initialState, action) => {
         myFavorites: action.payload,
       };
     case VALIDATE:
-      console.log(action.payload.favorites);
+      console.log("myfavorites:", action.payload.favorites);
       return {
         ...state,
         user: action.payload.username,

@@ -21,7 +21,7 @@ export function validateUser(user) {
     axios
       .post("https://rickback-production.up.railway.app/users", user)
       .then((response) => response.data)
-      .then((data) => dispatch({ type: SIGNUP, payload: data }));
+      .then((data) => dispatch({ type: VALIDATE, payload: data }));
   };
 }
 
